@@ -1,6 +1,6 @@
 {
-  "name": "camelcase-keys-deep",
-  "version": "0.1.0",
+  "name": "transform-keys-deep",
+  "version": "0.0.1",
   "description": "Deeply convert the keys of an object to camelCase",
   "author": "Piotr Krajewski <mits87@gmail.com>",
   "license": "MIT",
