@@ -1,5 +1,5 @@
 const transform = (input, callback) => {
-    if (!input || typeof input !== 'object') return input;
+    if (!input || typeof input !== 'object') return callback(input);
     if (Array.isArray(input)) return input.map(item => transform(item, callback));
 
     return Object.keys(input).reduce((acc, key) => {
