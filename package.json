@@ -1,6 +1,6 @@
 {
   "name": "transform-keys-deep",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Deeply convert the keys of an object to camelCase",
   "author": "Piotr Krajewski <mits87@gmail.com>",
   "license": "MIT",
@@ -11,7 +11,10 @@
   "scripts": {
     "test": "jest"
   },
-  "repository": "mits87/transform-keys-deep",
+  "repository": "git://github.com/mits87/transform-keys-deep.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "keywords": [
     "map",
     "obj",
