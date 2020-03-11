@@ -25,6 +25,10 @@ describe('index.js', () => {
         ],
       })
     });
+
+    it('should transform string from snakecase to camelcase', () => {
+      expect(camelcaseKeysDeep('key_one')).toEqual('keyOne')
+    });
   });
 
   describe('snakecaseKeysDeep', () => {
@@ -50,6 +54,10 @@ describe('index.js', () => {
           },
         ],
       })
+    });
+
+    it('should transform string from camelcase to snakecase', () => {
+      expect(snakecaseKeysDeep('keyOne')).toEqual('key_one')
     });
   });
 });
